@@ -1,0 +1,27 @@
+#include <bits/sdtc++.h>
+using namespace std;
+
+
+void swap(int& a, int& b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+int main() {
+    int first, second;
+
+    std::cout << "Enter the first number: ";
+    std::cin >> first;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> second;
+
+    std::cout << "Before swapping: first = " << first << ", second = " << second << std::endl;
+
+    swap(first, second);
+
+    std::cout << "After swapping: first = " << first << ", second = " << second << std::endl;
+
+    return 0;
+}

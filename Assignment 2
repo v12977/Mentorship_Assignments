@@ -1,0 +1,21 @@
+#include <bits/sdtc++.h>
+using namespace std;
+
+const double PI = 3.14159;
+
+int main() {
+    double radius;
+    cout << "Enter the radius of the circle: ";
+    cin >> radius;
+
+     Calculate the area of the circle
+    double area = PI * radius * radius;
+
+     Calculate the circumference of the circle
+    double circumference = 2 * PI * radius;
+
+    cout << "Area of the circle: " << area << endl;
+    cout << "Circumference of the circle: " << circumference << endl;
+
+    return 0;
+}
